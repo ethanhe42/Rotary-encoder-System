@@ -1,0 +1,83 @@
+#include "all.h"
+
+static __IO uint32_t TimingDelay;
+
+void SysTick_init(void)
+{
+	if (SysTick_Config(SystemCoreClock / 500))   //Setup SysTick Timer for 1 ms interrupts
+	{ 
+		/* Capture error */ 
+		while (1);
+	}
+}
+
+void delay(__IO uint32_t nTime)
+{
+	TimingDelay = nTime;
+	
+	while(TimingDelay != 0);
+}
+
+void TimingDelay_Decrement(void)
+{
+	if (TimingDelay != 0x00)
+	{ 
+		TimingDelay--;
+	}
+}
+
+
+
+/**
+  * @brief  This function handles SysTick Handler.
+  * @param  None
+  * @retval None
+  */
+void SysTick_Handler(void)
+{
+  static int i=0;
+    
+	TimingDelay_Decrement();
+    if((i%40)==0)     //尽量让CAN总线负担平均到各个时间段
+    {
+        SEND_CONVERS();
+    }
+    else if(i%40==10)
+	{
+		S_GYRO_RAD_FUNC();
+	}
+    else if(i%40==20)
+	{
+		S_ENC1_DIS_FUNC();
+	}
+    else if(i%40==30)
+	{
+		S_ENC2_DIS_FUNC();
+	}
+	Encoder_Update();
+	GPS_Update();
+    
+	
+	if(i==1)
+	{
+		LED1_on;
+	}
+	else if(i==250)
+	{
+		LED1_off;
+        if(Gyro_Error_Flag==0)
+        {
+            DMA_check();
+        }
+	}
+	else if(i>=500)
+	{
+		i=0;
+	}
+	i++;
+    LCD_SetXY(0,0);
+    LCD_PushString("        ");
+    LCD_WriteIntXY(i,0,0);
+	GPS_TO_MASTER();
+    
+}

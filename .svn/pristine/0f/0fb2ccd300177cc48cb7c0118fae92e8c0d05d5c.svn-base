@@ -1,0 +1,1960 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\GPS.uvproj
+Project File Date:  05/04/2014
+
+<h2>Output:</h2>
+Build target 'GPS'
+linking...
+Program Size: Code=24464 RO-data=1008 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Build target 'GPS'
+linking...
+Program Size: Code=24464 RO-data=1008 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Build target 'GPS'
+linking...
+Program Size: Code=24464 RO-data=1008 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Build target 'GPS'
+linking...
+Program Size: Code=24464 RO-data=1008 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Build target 'GPS'
+linking...
+Program Size: Code=24464 RO-data=1008 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Build target 'GPS'
+compiling can.c...
+linking...
+Program Size: Code=24464 RO-data=1008 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Build target 'GPS'
+linking...
+Program Size: Code=24464 RO-data=1008 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling SysTick.c...
+linking...
+Program Size: Code=24468 RO-data=1004 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling SysTick.c...
+linking...
+Program Size: Code=24476 RO-data=1004 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling SysTick.c...
+linking...
+Program Size: Code=24472 RO-data=1008 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+linking...
+Program Size: Code=24472 RO-data=1008 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling SysTick.c...
+..\owner\c\SysTick.c(67): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=24408 RO-data=1008 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling SysTick.c...
+linking...
+Program Size: Code=24472 RO-data=1008 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling SysTick.c...
+linking...
+Program Size: Code=24472 RO-data=1008 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling SysTick.c...
+linking...
+Program Size: Code=24520 RO-data=1008 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling SysTick.c...
+linking...
+Program Size: Code=24456 RO-data=1008 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling SysTick.c...
+linking...
+Program Size: Code=24464 RO-data=1008 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Build target 'GPS'
+compiling SysTick.c...
+linking...
+Program Size: Code=24472 RO-data=1008 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling SysTick.c...
+linking...
+Program Size: Code=24464 RO-data=1008 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling SysTick.c...
+linking...
+Program Size: Code=24460 RO-data=1004 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling SysTick.c...
+linking...
+Program Size: Code=24464 RO-data=1008 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling usart.c...
+linking...
+Program Size: Code=24428 RO-data=1004 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Build target 'GPS'
+compiling can_database.c...
+linking...
+Program Size: Code=24428 RO-data=1004 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling main.c...
+compiling gyro.c...
+compiling qei.c...
+compiling SysTick.c...
+compiling usart.c...
+compiling init.c...
+compiling gps.c...
+compiling lcd.c...
+compiling encoder.c...
+compiling can_database.c...
+compiling Command.c...
+compiling can.c...
+..\owner\c\can.c(195): warning:  #260-D: explicit type is missing ("int" assumed)
+compiling flash.c...
+compiling mymath.c...
+linking...
+Program Size: Code=24440 RO-data=1008 RW-data=1760 ZI-data=1544  
+".\Obj\GPS.axf" - 0 Error(s), 1 Warning(s).
+Build target 'GPS'
+linking...
+Program Size: Code=24440 RO-data=1008 RW-data=1760 ZI-data=1544  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Build target 'GPS'
+compiling gps.c...
+..\owner\c\gps.c(46): warning:  #39-D: division by zero
+linking...
+Program Size: Code=24420 RO-data=1004 RW-data=1760 ZI-data=1544  
+".\Obj\GPS.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling gps.c...
+..\owner\c\gps.c(43): error:  #7: unrecognized token
+..\owner\c\gps.c(43): error:  #137: expression must be a modifiable lvalue
+..\owner\c\gps.c(43): error:  #65: expected a ";"
+Target not created
+Build target 'GPS'
+compiling gps.c...
+..\owner\c\gps.c(43): error:  #137: expression must be a modifiable lvalue
+Target not created
+Build target 'GPS'
+compiling gps.c...
+linking...
+Program Size: Code=24448 RO-data=1008 RW-data=1760 ZI-data=1544  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling gps.c...
+linking...
+Program Size: Code=24440 RO-data=1008 RW-data=1760 ZI-data=1544  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Build target 'GPS'
+linking...
+Program Size: Code=24440 RO-data=1008 RW-data=1760 ZI-data=1544  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling main.c...
+compiling gyro.c...
+compiling qei.c...
+compiling SysTick.c...
+compiling usart.c...
+compiling init.c...
+compiling gps.c...
+compiling lcd.c...
+compiling encoder.c...
+compiling can_database.c...
+compiling Command.c...
+compiling can.c...
+..\owner\c\can.c(195): warning:  #260-D: explicit type is missing ("int" assumed)
+compiling flash.c...
+compiling mymath.c...
+linking...
+Program Size: Code=24464 RO-data=1008 RW-data=1760 ZI-data=1544  
+".\Obj\GPS.axf" - 0 Error(s), 1 Warning(s).
+Build target 'GPS'
+compiling can.c...
+..\owner\c\can.c(195): warning:  #260-D: explicit type is missing ("int" assumed)
+linking...
+Program Size: Code=24464 RO-data=1008 RW-data=1760 ZI-data=1544  
+".\Obj\GPS.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling can.c...
+..\owner\c\can.c(195): warning:  #260-D: explicit type is missing ("int" assumed)
+linking...
+Program Size: Code=24464 RO-data=1008 RW-data=1760 ZI-data=1544  
+".\Obj\GPS.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling can.c...
+..\owner\c\can.c(195): warning:  #260-D: explicit type is missing ("int" assumed)
+linking...
+Program Size: Code=24456 RO-data=1008 RW-data=1760 ZI-data=1544  
+".\Obj\GPS.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling can.c...
+linking...
+Program Size: Code=24428 RO-data=1004 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+linking...
+Program Size: Code=24428 RO-data=1004 RW-data=1756 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling can.c...
+..\owner\c\can.c(195): warning:  #260-D: explicit type is missing ("int" assumed)
+linking...
+Program Size: Code=24456 RO-data=1008 RW-data=1760 ZI-data=1544  
+".\Obj\GPS.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling can.c...
+..\owner\c\can.c(195): warning:  #260-D: explicit type is missing ("int" assumed)
+linking...
+Program Size: Code=24456 RO-data=1008 RW-data=1760 ZI-data=1544  
+".\Obj\GPS.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling can.c...
+linking...
+Program Size: Code=24456 RO-data=1008 RW-data=1760 ZI-data=1544  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling can.c...
+linking...
+Program Size: Code=24464 RO-data=1008 RW-data=1760 ZI-data=1544  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling can.c...
+linking...
+Program Size: Code=24468 RO-data=1004 RW-data=1760 ZI-data=1544  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling SysTick.c...
+linking...
+Program Size: Code=24472 RO-data=1008 RW-data=1760 ZI-data=1544  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling SysTick.c...
+compiling can.c...
+linking...
+Program Size: Code=24472 RO-data=1008 RW-data=1760 ZI-data=1544  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Build target 'GPS'
+compiling SysTick.c...
+compiling lcd.c...
+..\owner\c\lcd.c(201): warning:  #187-D: use of "=" where "==" may have been intended
+..\owner\c\lcd.c(218): warning:  #187-D: use of "=" where "==" may have been intended
+..\owner\c\lcd.c(188): warning:  #550-D: variable "k" was set but never used
+compiling can.c...
+linking...
+Program Size: Code=24548 RO-data=1004 RW-data=1760 ZI-data=1544  
+".\Obj\GPS.axf" - 0 Error(s), 3 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling stm32f10x_can.c...
+compiling SysTick.c...
+compiling lcd.c...
+compiling can.c...
+linking...
+Program Size: Code=24604 RO-data=1004 RW-data=1764 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling lcd.c...
+linking...
+Program Size: Code=24568 RO-data=1008 RW-data=1764 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling lcd.c...
+linking...
+Program Size: Code=24596 RO-data=1004 RW-data=1764 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling lcd.c...
+..\owner\c\lcd.c(189): warning:  #550-D: variable "k" was set but never used
+linking...
+Program Size: Code=24556 RO-data=1004 RW-data=1764 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'GPS'
+compiling lcd.c...
+..\owner\c\lcd.c(189): warning:  #177-D: variable "i" was declared but never referenced
+..\owner\c\lcd.c(189): warning:  #177-D: variable "k" was declared but never referenced
+linking...
+Program Size: Code=24492 RO-data=1004 RW-data=1764 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 2 Warning(s).
+Load "C:\\Users\\Administrator\\Desktop\\张辉\\SVN\\IVE\\branches\\GPS\\Project\\Obj\\GPS.axf" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\张辉\SVN\IVE\branches\GPS\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.40 , compiled Dec  9 2011 18:59:34
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...

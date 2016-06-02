@@ -1,0 +1,13 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+G:\教材\my电子\robotteam\资料\SVN\Ive\GPS\Project\GPS.uvproj
+Project File Date:  03/15/2014
+
+<h2>Output:</h2>
+Build target 'GPS'
+linking...
+Program Size: Code=24172 RO-data=1004 RW-data=1740 ZI-data=1548  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).

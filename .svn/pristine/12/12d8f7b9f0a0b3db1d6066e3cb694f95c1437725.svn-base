@@ -1,0 +1,41 @@
+#include "all.h"
+
+
+int main(void)
+{
+	uint8_t i;
+	RCC_Configuration();
+	GPIO_Configuration();
+	LED1_on;
+	LED2_on;
+	LED3_on;
+	LED4_on;
+	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
+	Data_Load();
+	Can1_Init();
+	UART1_DMA_init(38400);
+	QEI_Init();
+	SEND_CONVER_FLAG = 1;
+	UART1_DMA_EN();
+	LED4_off;
+	Gyro_Clear();
+	
+	GPS_Clear();
+	SysTick_init();		
+// 	Gyro_CheckFloat();
+// 	MISO_CMD = Float_State;
+// 	Write_Database(G_M_CMD_ID);
+
+
+	LED1_off;
+	LED2_off;
+	LED3_off;
+	LED4_off;
+	
+	
+	
+	
+	LCD_Clear();
+	TaskLcdRefresh();
+}
+

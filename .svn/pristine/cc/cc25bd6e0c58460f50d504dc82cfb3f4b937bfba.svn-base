@@ -1,0 +1,234 @@
+#include "all.h"
+#include "stdarg.h"
+
+//存储当前液晶屏显示内容
+uint8_t LCD_Table[LCD_LEN];
+uint8_t LCD_Index=0;
+
+
+
+void LCD_PushByte(uint8_t data)		//发送一个字符
+{
+	LCD_Table[LCD_Index]=data;
+	if(LCD_Index >= (LCD_LEN-1))
+		LCD_Index=0;
+	else
+		LCD_Index++;
+}
+
+void LCD_PushString(char *data)		//发送一个字符串
+{
+	while(*data)
+	{
+		LCD_PushByte(*data++);
+	}
+}
+
+// void LCD_Printf(const char *fmt,...)
+// {
+//     va_list ap;
+//     char string[LCD_LEN];
+
+//     va_start(ap,fmt);
+//     vsprintf(string,fmt,ap);
+//     va_end(ap);
+// 	LCD_PushString(string);
+
+// }
+// void UART0_Printf(const char *fmt,...)
+// {
+//     va_list ap;
+//     char string[LCD_LEN];
+
+//     va_start(ap,fmt);
+//     vsprintf(string,fmt,ap);
+//     va_end(ap);
+// 	UART0_SendString(string);
+
+// }
+
+void LCD_SetXY(int x,int y)
+{
+	LCD_Index=x+y*20;
+}
+
+void LCD_WriteChar(char data)
+{
+	LCD_PushByte(data);
+}
+
+void LCD_WriteString(char *data)
+{
+	LCD_PushString(data);
+}
+
+void LCD_WriteInt(int data)//写整数，从低位向高位写
+{
+	char answer[100];
+	int index=98;
+	int pose=0;//正负号标志符
+	if(data<0)
+	{
+		pose=1;
+		data=-data;
+	}
+	answer[99]='\0';//最低位存储结束标志
+	while(data>9)//存储整数位
+	{
+		answer[index--]=data%10+'0';
+		data=data/10;
+	}
+	answer[index]=data+'0';
+	if(pose)//存储正负号
+	{
+		answer[--index]='-';
+	}
+	LCD_PushString(answer+index);//写整个数组
+}
+
+void LCD_WriteDouble(double data,int m)//写double型数，m为小数点后位数，从高位向低位写
+{
+	if(data<0&&data>-1)
+		LCD_WriteChar('-');//写负号
+	LCD_WriteInt((int)data);//写整数部分
+	if(m>0)
+	{
+		int i;
+		LCD_WriteChar('.');//写小数点
+		if(data<0)
+			data=-data;
+		data=data-(int)data;
+		for(i=0;i<m;i++)//写小数部分
+		{
+			data=data*10;
+			LCD_WriteChar((int)data+'0');
+			data=data-(int)data;
+		}
+		
+	}
+	
+}
+
+void LCD_WriteNum(double data)//写double型数，小数点后保留6位，从高位向低位写
+{
+	char str[5];
+	int flag=0,i;
+	if(data<0)
+	{
+		LCD_WriteChar('-');//写负号
+		data=-data;
+	}
+	LCD_WriteInt((int)data);//写整数部分
+	data=data-(int)data;
+	for(i=0;i<5;i++)//将小数部分保留在一个字符串内
+	{
+		data=data*10;
+		str[i]=(int)data+'0';
+		if(str[i]!='0')
+		{
+			flag=i+1;
+		}
+		data=data-(int)data;
+		
+	}
+	if(flag!=0)
+		LCD_WriteChar('.');//写小数点
+	for(i=0;i<flag;i++)
+	{
+		LCD_WriteChar(str[i]);//写小数部分
+	}	
+	for(i=flag;i<6;i++)
+	{
+		LCD_WriteChar(' ');//小数点后不够6位则补空格
+	}
+}
+
+void LCD_WriteCharXY(char data,int x,int y)
+{
+	LCD_SetXY(x,y);
+	LCD_PushByte(data);
+}
+
+void LCD_WriteStringXY(char *data,int x,int y)
+{
+	LCD_SetXY(x,y);
+	LCD_PushString(data);
+}
+
+void LCD_WriteIntXY(int data,int x,int y)
+{
+	LCD_SetXY(x,y);
+	LCD_WriteInt(data);
+}
+
+void LCD_WriteDoubleXY(double data,int m,int x,int y)
+{
+	LCD_SetXY(x,y);
+	LCD_WriteDouble(data, m);
+}
+
+void LCD_WriteNumXY(double data,int x,int y)
+{
+	LCD_SetXY(x,y);
+	LCD_WriteNum(data);
+}
+
+void LCD_Clear(void)//清屏时会同时将光标置(0,0)
+{
+	//LCD_WriteChar(12);//不用命令清屏时为了LCD_PushByte()函数可以记录LCD内容
+	LCD_WriteStringXY("                                                                                ",0,0); 
+	LCD_WriteStringXY("                                                                                ",0,4); 
+
+	LCD_SetXY(0,0);
+}
+extern int clk;
+extern uint8_t Can_State;
+//4行20列共80单元，每10个单元为一组刷新
+void TaskLcdRefresh(void)
+{
+	static uint8_t i = 0,j = 0, k = 0;
+	while(1)
+	{
+        if(SS_CF==1)
+		{
+			Gyro_CheckFloat();
+			MISO_CMD = Float_State;
+            Write_Database(G_M_CMD_ID);
+            while(Can_State == 0)
+               Write_Database(G_M_CMD_ID);
+            while(Can_State == 0)
+               Write_Database(G_M_CMD_ID);
+            while(Can_State == 0)
+               Write_Database(G_M_CMD_ID);
+			SS_CF = 0;
+		}
+        
+//         //刷液晶
+// 		UART1_SendByte(0xff);
+// 		UART1_SendByte(30*(i/2)+(i%2)*10);
+// 		delay(4);
+// 		for(j=0;j<=9;j++)
+// 		{
+// 			 UART1_SendByte (LCD_Table[10*i+j]);
+// 			 //OSTimeDly(1);
+// 		}
+//         
+//         if(i>=15)
+// 			i = 0;
+// 		else
+// 			i++;
+        
+        if(Gyro_Error_Flag)
+        {
+            UART1_DMA_EN();
+            Gyro_Error_Flag = 0;
+        }
+		
+		delay(4);
+	}
+}
+
+
+
+
+
